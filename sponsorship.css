@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #8B0000; /* Reddish-brown text color */
+  }
+  
+  header.sponsorship-header {
+    background: #8B0000; /* Reddish-brown background */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  header.sponsorship-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header.sponsorship-header h2 {
+    font-size: 1.5em;
+    margin: 5px 0 0;
+  }
+  
+  .sponsorship-info, .sponsorship-packages {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+  }
+  
+  .sponsorship-info h2, .sponsorship-packages h2 {
+    color: #8B0000; /* Reddish-brown for headings */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .sponsorship-info .benefits {
+    background: #FAEBD7; /* Light beige background for contrast */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #8B0000; /* Reddish-brown border */
+  }
+  
+  .sponsorship-info ul, .sponsorship-packages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sponsorship-info ul li, .sponsorship-packages ul li {
+    margin: 8px 0;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .sponsorship-info ul li:before, .sponsorship-packages ul li:before {
+    content: "•";
+    color: #8B0000; /* Reddish-brown bullet point */
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+  }
+  
+  .sponsorship-packages .horizontal-packages {
+    display: flex;
+    justify-content: space-between; /* Space between the divs */
+    gap: 20px; /* Adds space between the divs */
+    margin-bottom: 20px;
+  }
+  
+  .sponsorship-packages .horizontal-packages .package {
+    flex: 1; /* Ensures equal width */
+    background: #FFF8DC; /* Soft cream background */
+    border: 1px solid #8B0000; /* Reddish-brown border */
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .sponsorship-packages .horizontal-packages .package h3 {
+    color: #8B0000; /* Heading color matches theme */
+    margin: 0 0 10px;
+  }
+  
+  /* General Footer Styles */
+.site-footer {
+    background-color: #8B0000; /* Reddish-brown background */
+    color: white;
+    padding: 15px 0; /* Smaller padding for compact footer */
+    margin-top: 50px; /* Margin to separate the footer from the event activity section */
+    font-size: 0.9em; /* Smaller font size for a cleaner, more compact look */
+    text-align: center; /* Center everything inside the footer */
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    flex-wrap: wrap; /* Stack content if necessary on smaller screens */
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    text-align: center; /* Center text */
+  }
+  
+  /* Footer Links (Email, Phone) */
+  .footer-content a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    background-color: #8B0000; /* Same reddish-brown as the main footer */
+    color: #FFD700; /* Gold text */
+    text-align: center;
+    padding: 5px 0; /* Smaller padding for bottom section */
+    margin-top: 5px;
+    font-size: 0.8em; /* Smaller text size */
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      font-size: 0.85em; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sponsorship-packages .horizontal-packages {
+      flex-direction: column; /* Stacks divs on smaller screens */
+    }
+  }
+  

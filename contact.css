@@ -1,0 +1,132 @@
+.contact-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px; /* Increased font size for "Contact Us" */
+    font-weight: bold; /* Made it bold */
+    color: #8B0000;
+}
+
+.header p {
+    font-size: 18px; /* Increased font size for the paragraph below "Contact Us" */
+    font-weight: normal;
+    color: #555;
+    margin-top: 10px; /* Added some space below the header */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 320px; /* Increased height slightly */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event h2 {
+    font-size: 24px; /* Made "Contact Us" heading even larger */
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 18px; /* Increased font size for the paragraph below "Contact Us" */
+    margin: 12px 0; /* Slightly increased spacing between lines */
+    color: #333;
+    text-align: center; /* Center-aligned text */
+}
+
+.chairman {
+    font-size: 18px; /* Larger text for chairman info */
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    text-align: center;
+}
+
+.image-placeholder img {
+    max-width: 70%; /* Slightly smaller image */
+    height: auto;
+    border-radius: 8px;
+}
+/* General Footer Styles */
+.site-footer {
+    background-color: #8B0000; /* Reddish-brown background */
+    color: white;
+    padding: 15px 0; /* Smaller padding for compact footer */
+    margin-top: 50px; /* Margin to separate the footer from the event activity section */
+    font-size: 0.9em; /* Smaller font size for a cleaner, more compact look */
+    text-align: center; /* Center everything inside the footer */
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    flex-wrap: wrap; /* Stack content if necessary on smaller screens */
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    text-align: center; /* Center text */
+  }
+  
+  /* Footer Links (Email, Phone) */
+  .footer-content a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    background-color: #8B0000; /* Same reddish-brown as the main footer */
+    color: #FFD700; /* Gold text */
+    text-align: center;
+    padding: 5px 0; /* Smaller padding for bottom section */
+    margin-top: 5px;
+    font-size: 0.8em; /* Smaller text size */
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      font-size: 0.85em; /* Adjust font size for smaller screens */
+    }
+  }
